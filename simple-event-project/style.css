@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.section{
+display: flex;
+gap: 20px;
+}
+.box1,.box2 {
+    height: 500px;
+    width: 500px;
+    outline: 2px solid black;
+    border-radius: 20px;
+}
+.box1 p, .box2 p {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 40%;
+    font-weight: bold;
+    height: 100%;
+}
+.box1 p span, .box2 p span{
+    font-weight: bold;
+    font-size: 3rem;
+    color: red;
+}
+.button {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px auto 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(235, 94, 94);
+    padding: 20px 10px;
+    width: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: rgb(219, 48, 48);
+    box-shadow: 2px 0px 0px rgba(0, 0, 0, 0.5);
+    font-style: oblique;
+}
+
